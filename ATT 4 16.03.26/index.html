@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yghor Ramon Santos de Oliveira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container">
+      <h1>Fórmula 1</h1>
+      <p>Velocidade, tecnologia e emoção nas pistas do mundo.</p>
+    </div>
+  </header>
+
+  <nav aria-label="Menu principal" class="menu">
+    <div class="container">
+      <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#equipes">Equipes</a></li>
+        <li><a href="#pilotos">Pilotos</a></li>
+        <li><a href="#midia">Mídias</a></li>
+        <li><a href="#formulario">Formulário</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="historia" class="card">
+      <h2>História da Fórmula 1</h2>
+
+      <article>
+        <h3>O início da categoria</h3>
+        <p>
+          A Fórmula 1 surgiu oficialmente em 1950 e se tornou a principal categoria
+          do automobilismo mundial. Desde então, reúne os melhores pilotos,
+          equipes de elite e circuitos históricos.
+        </p>
+      </article>
+
+      <article>
+        <h3>Evolução ao longo dos anos</h3>
+        <p>
+          Com o passar do tempo, a Fórmula 1 evoluiu em segurança, tecnologia,
+          desempenho dos carros e estratégias de corrida, conquistando fãs em
+          todos os continentes.
+        </p>
+      </article>
+    </section>
+
+    <section id="equipes" class="card">
+      <h2>Equipes famosas</h2>
+
+      <article>
+        <h3>Ferrari</h3>
+        <p>
+          Uma das equipes mais tradicionais e icônicas da Fórmula 1, conhecida
+          por sua história vitoriosa e por sua enorme torcida.
+        </p>
+      </article>
+
+      <article>
+        <h3>Mercedes</h3>
+        <p>
+          A Mercedes dominou diferentes temporadas recentes com alto nível de
+          engenharia, estratégia e pilotos competitivos.
+        </p>
+      </article>
+
+      <article>
+        <h3>Red Bull Racing</h3>
+        <p>
+          A Red Bull se destacou pela inovação, agressividade nas pistas e grandes
+          campanhas de pilotos campeões.
+        </p>
+      </article>
+    </section>
+
+    <section id="pilotos" class="card">
+      <h2>Pilotos lendários</h2>
+
+      <article>
+        <h3>Ayrton Senna</h3>
+        <p>
+          Ídolo brasileiro e um dos maiores nomes da história da Fórmula 1,
+          lembrado pelo talento, coragem e carisma.
+        </p>
+      </article>
+
+      <article>
+        <h3>Michael Schumacher</h3>
+        <p>
+          Piloto alemão que marcou época com múltiplos títulos mundiais e uma
+          carreira histórica.
+        </p>
+      </article>
+
+      <article>
+        <h3>Max Verstappen</h3>
+        <p>
+          Um dos pilotos mais vitoriosos da Fórmula 1, conhecido por recordes,
+          consistência e impacto dentro e fora das pistas.
+        </p>
+      </article>
+    </section>
+
+    <section id="midia" class="card">
+      <h2>Conteúdo multimídia</h2>
+
+      <figure>
+        <img src="img/f1-car.png" alt="Ilustração de um carro de Fórmula 1 em uma pista">
+        <figcaption>Imagem ilustrativa sobre a Fórmula 1.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/circuito.png" alt="Ilustração de um circuito de corrida em estilo visual simples">
+        <figcaption>Exemplo de circuito e estratégia de pista.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/max.gif" alt="Max Verstappen comemorando uma vitória em um GIF animado">
+        <figcaption>Max Verstappen celebrando uma vitória.</figcaption>
+      </figure>
+
+      <div class="audio-box">
+        <h3>Áudio temático</h3>
+        <p>Exemplo de áudio temático inspirado no clima de corrida.</p>
+        <audio controls>
+          <source src="audio/tema-f1.wav" type="audio/wav">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </div>
+    </section>
+
+    <section id="formulario" class="card">
+      <h2>Formulário de interesse</h2>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Dados do visitante</legend>
+
+          <div class="campo">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" required minlength="3" placeholder="Digite seu nome completo">
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+          </div>
+
+          <div class="campo">
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" min="10" max="100" required placeholder="Digite sua idade">
+          </div>
+
+          <div class="campo">
+            <label for="equipe">Equipe favorita</label>
+            <select id="equipe" name="equipe" required>
+              <option value="">Selecione</option>
+              <option value="ferrari">Ferrari</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="redbull">Red Bull Racing</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required minlength="10" placeholder="Escreva sua opinião sobre a Fórmula 1"></textarea>
+          </div>
+
+          <button type="submit">Enviar formulário</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <aside id="curiosidades" class="container card curiosidades">
+    <h2>Curiosidades</h2>
+    <p>
+      Os carros de Fórmula 1 podem ultrapassar 300 km/h e são desenvolvidos com
+      tecnologias avançadas que influenciam até a indústria automotiva comum.
+    </p>
+    <p>
+      Cada corrida é chamada de Grande Prêmio, e o campeonato acontece em
+      diferentes países ao longo da temporada.
+    </p>
+  </aside>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; 2026 Página temática sobre Fórmula 1.</p>
+    </div>
+  </footer>
+</body>
+</html>
